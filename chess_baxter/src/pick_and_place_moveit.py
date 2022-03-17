@@ -159,7 +159,7 @@ def main():
         p = positions[place]
         place_block_poses.append(Pose(position=Point(x=p[0], y=p[1], z=p[2]), orientation=overhead_orientation))
 
-    # perform 3 moves
+    # to perform 5 moves.
     for i in range(5):
         if rospy.is_shutdown():
             break
@@ -172,7 +172,5 @@ def main():
 
     return 0
 
-
 if __name__ == '__main__':
     sys.exit(main())
- 
