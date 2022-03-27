@@ -5,6 +5,7 @@ This repository hosts the code for Robotics Foundations H (COMPSCI 4076) course.
 #### Contents
 * [Problem Statement](#problem-statement)
 * [Installation](#installation)
+* [Directory tree](#directory-tree)
 
 ## [Problem Statement](#robotics_foundations)
 
@@ -13,3 +14,10 @@ The coursework is based on what you have been working on in the labs. Your proje
 ## [Installation](#robotics_foundations)
 
 
+## [Directory tree](#robotics_foundations)
+
+    |–– chess_baxter
+    | |–– models
+    | | |–– chessboard
+    | | | |–– chessboard
+    | |–– src
